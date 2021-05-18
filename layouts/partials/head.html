@@ -6,8 +6,8 @@
   {{- if or .Description .Site.Params.description }}
   <meta name="description" content="{{ .Description | default .Site.Params.description }}">
   {{- end }}
-  {{- if .Params.favicon }}
-  <link rel="icon" href="{{ .Site.Params.favicon }}">
+  {{- if .Site.Params.favicon }}
+  <link rel="icon" href="{{ .Site.Params.favicon }}?v=1">
   {{- end }}
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/simpleness.css">
   <link rel="canonical" href="{{ .Permalink }}">

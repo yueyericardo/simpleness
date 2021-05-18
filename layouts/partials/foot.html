@@ -2,6 +2,11 @@
   {{ $start := .Site.Params.startyear }}
   &copy; {{ $start }} - {{ now.Format "2006" }} &#183;
   <a href="/"> {{ .Site.Title }} </a> &#183;
-  Theme <a href="https://github.com/RainerChiang/simpleness">Simpleness</a> Powered by <a href="https://gohugo.io/">Hugo</a> &#183;
-  <a href="#"><i class="fas fa-chevron-up"></i></a>
+  {{ if .Site.Social.rss }}
+    RSS&nbsp; <a href="{{ "index.xml" | absLangURL }}" target="_blank">
+      <i title="RSS" class="fas fa-rss"></i>
+    </a>
+  {{ end }}
+  <br>
+  Theme <a href="https://github.com/RainerChiang/simpleness">Simpleness</a> Powered by Hugo 
 </div>
