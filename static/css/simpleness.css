@@ -328,6 +328,7 @@ article h5, h6 {
   font-family: var(--code-font);
   font-size: 14px;
   background-color: #000000!important;
+  color: white;
   border-radius: 3px;
   overflow-x: auto;
   margin: auto;
