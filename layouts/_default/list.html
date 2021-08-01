@@ -21,7 +21,9 @@
     {{ range .Pages }}
       <li class="archive-item">
       {{ if .Date }}
-        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
+        <div class="meta">
+          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time>
+        </div>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
       {{ end }}
       </li>

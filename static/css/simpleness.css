@@ -902,6 +902,7 @@ article .content #lightgallery img:hover {
 /* ------- donation end ------ */
 
 
+/* -------- mobile -------- */
 @media (max-width: 540px) {
   html {
     font-size: 14px;
@@ -943,3 +944,29 @@ article .content #lightgallery img:hover {
     font-size: 12px;
   }
 }
+/* -------- mobile end -------- */
+
+/* -------- home archive -------- */
+.archive-list {
+  padding: 0;
+}
+.archive-list .archive-item {
+  display: flex;
+  margin-bottom: 5px;
+}
+.archive-list .archive-item .meta {
+  display: block;
+  margin-right: 16px;
+  min-width: 100px;
+}
+@media (max-width: 540px) {
+  .archive-list .archive-item {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .archive ul {
+    padding-inline-start: 0;
+  }
+}
+
+/* -------- home archive end -------- */
