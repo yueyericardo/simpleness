@@ -117,7 +117,7 @@
 
 /* ------- html -------*/
 html {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 body {
@@ -900,3 +900,46 @@ article .content #lightgallery img:hover {
 } 
 
 /* ------- donation end ------ */
+
+
+@media (max-width: 540px) {
+  html {
+    font-size: 14px;
+  }
+  .nav-item a {
+    font-size: 14px;
+  }
+  .foot {
+    font-size: 14px;
+  }
+
+  article header > h1{
+    font-size: 1.3em;
+  }
+
+  article :not(header) > h1 {
+    font-size: 1.3em;
+  }
+
+  article h2 {
+    font-size: 1.3em;
+  }
+
+  article h3 {
+    font-size: 1.1em;
+  }
+
+  article h4 {
+    font-size: 1.1em;
+  }
+
+  article h5, h6 {
+   font-size: 1em;
+  }
+  .post-text pre {
+    font-size: 13px;
+  }
+  .post-text :not(pre) > code {
+    font-size: 12px;
+  }
+}
