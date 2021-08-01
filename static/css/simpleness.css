@@ -6,7 +6,7 @@
   /* fonts */
   --normal-font: Georgia, "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
   --code-font: Consolas, Monaco, monospace, 'Courier New', Courier;
-  --nav-font: cursive;
+  --nav-font: "PT Serif", "Times New Roman", Times, serif;
   --nav-color: red;
   --motto-font: "Motto";
   /* colors */
