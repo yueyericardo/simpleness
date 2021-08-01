@@ -1,12 +1,28 @@
+{{- if or .Params.lightgallery .Site.Params.lightgallery }}
+<!-- lightgallery -->
+<script type="text/javascript">
+  $(document).ready(function () {
+
+    // lightGallery(document.getElementById('lightgallery'));
+    $("#lightgallery").lightGallery({
+      thumbnail: true,
+      mode: 'lg-fade',
+      selector: '.link'
+    });
+  })
+</script>
+{{- end }}
+
 <div class="foot">
   {{ $start := .Site.Params.startyear }}
   &copy; {{ $start }} - {{ now.Format "2006" }} &#183;
   <a href="/"> {{ .Site.Title }} </a> &#183;
   {{ if .Site.Social.rss }}
-    RSS&nbsp; <a href="{{ "index.xml" | absLangURL }}" target="_blank">
-      <i title="RSS" class="fas fa-rss"></i>
-    </a>
+  RSS&nbsp; <a href="{{ " index.xml" | absLangURL }}" target="_blank">
+    <i title="RSS" class="fas fa-rss"></i>
+  </a>
   {{ end }}
+
   <br>
-  Theme <a href="https://github.com/RainerChiang/simpleness">Simpleness</a> Powered by Hugo 
+  Theme <a href="https://github.com/RainerChiang/simpleness">Simpleness</a> Powered by Hugo
 </div>
