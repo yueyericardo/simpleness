@@ -128,7 +128,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: var(--normal-font);
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 2;
   max-width: 900px;
   padding: .5em;
   margin:0 auto;
@@ -333,6 +333,7 @@ article h5, h6 {
   font-size: 14px;
   background-color: #000000!important;
   color: white;
+  line-height: 1.5;
   border-radius: 8px;
   overflow-x: auto;
   margin: auto;
@@ -577,7 +578,7 @@ article .content #lightgallery img:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 18px;
-  height: 45px;
+  height: 60px;
 }
 .loader {
   text-align: center;
