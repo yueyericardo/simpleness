@@ -553,7 +553,8 @@ article .content #lightgallery img:hover {
 .textarea {
   background: transparent;
   color: inherit;
-  font-family: "PT Serif";
+  font-size: inherit;
+  font-family: inherit;
   border-radius: 10px;
   border: 1px solid #ccc !important;
   padding-left: 20px;
