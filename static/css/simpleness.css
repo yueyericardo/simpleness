@@ -103,12 +103,13 @@
 
   .post-text :not(pre) > code {
     font-family: var(--code-font);
-    font-size: 13px;
-    color: #dd0055;
-    background: #d0d0d0;
+    font-size: 14px;
+    color: #fb307e;
     opacity: .9;
     border-radius: 2px;
+    border: 1px solid #ddd;
     margin: .1em .1em;
+    border-color: rgb(81 82 82);
     padding: .1em .3em;
   }
 }
