@@ -4,7 +4,7 @@
 /* custom variable */
 :root {
   /* fonts */
-  --normal-font: "PT Serif", "Times New Roman", Georgia, "Microsoft YaHei", -apple-system, Times, serif, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Roboto", sans-serif;
+  --normal-font:  "PT Serif", "Times New Roman", Times, serif, Georgia, "Microsoft YaHei";
   --code-font: Consolas, Monaco, monospace, 'Courier New', Courier;
   --nav-font: "PT Serif", "Times New Roman", Times, serif;
   --nav-color: red;
