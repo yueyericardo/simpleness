@@ -1,18 +1,3 @@
-{{- if or .Params.lightgallery .Site.Params.lightgallery }}
-<!-- lightgallery -->
-<script type="text/javascript">
-  $(document).ready(function () {
-
-    // lightGallery(document.getElementById('lightgallery'));
-    $("#lightgallery").lightGallery({
-      thumbnail: true,
-      mode: 'lg-fade',
-      selector: '.link'
-    });
-  })
-</script>
-{{- end }}
-
 <div class="foot">
   {{ $start := .Site.Params.startyear }}
   &copy; {{ $start }} - {{ now.Format "2006" }} &#183;
