@@ -18,7 +18,7 @@
     <h2 class="archive-year">{{ .Key }}</h2>
     <ul>
     {{ range .Pages.GroupByDate "January"}} <!-- .Pages in $Pages -->
-    {{ range .Pages }}
+    {{ range (where .Pages ".Params.unlisted" "!=" "true") }}
       <li class="archive-item">
       {{ if .Date }}
         <div class="meta">
