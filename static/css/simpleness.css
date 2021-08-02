@@ -1013,3 +1013,28 @@ article .content #lightgallery img:hover {
 }
 
 /* -------- home archive end -------- */
+
+
+/* --------- floating ads ----------- */
+#ads-header {
+  position: fixed;
+  margin-left: 58em;
+  margin-top: 7em;
+  display: block;
+  padding: 0;
+  z-index: 100;
+  text-align: center;
+  min-width: 310px;
+  overflow: hidden;
+  background: rgb(60 60 60 / 60%);
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+  transition: height 1s;
+  height: auto;
+}
+@media (max-width: 540px) {
+  #ads-header {
+    display: none;
+  }
+}
+/* --------- floating ads end----------- */
