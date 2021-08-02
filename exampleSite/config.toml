@@ -40,6 +40,12 @@ googleAnalytics = ""
   data_goatcounter = 'https://example.goatcounter.com/count'
   src = '//gc.zgo.at/count.js'
 
+[params.statcounter]
+  enable = false
+  sc_project = 1111111
+  sc_invisible = 1
+  sc_security = "blablabla"
+
 [menu]
   [[menu.main]]
   name = "Home"
