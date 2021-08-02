@@ -35,6 +35,11 @@ googleAnalytics = ""
   enableHeaderVisitor = true
   debug = true
 
+[params.goatcounter]
+  enable = false
+  data_goatcounter = 'https://example.goatcounter.com/count'
+  src = '//gc.zgo.at/count.js'
+
 [menu]
   [[menu.main]]
   name = "Home"
