@@ -895,7 +895,7 @@ article .content #lightgallery img:hover {
 
 
 /* -------- mobile -------- */
-@media (max-width: 540px) {
+@media (max-width: 560px) {
   html {
     font-size: 14px;
   }
@@ -935,6 +935,9 @@ article .content #lightgallery img:hover {
   .post-text :not(pre) > code {
     font-size: 12px;
   }
+  .nav-item a {
+    padding: 0 10px;
+  }
 }
 /* -------- mobile end -------- */
 
@@ -955,6 +958,7 @@ article .content #lightgallery img:hover {
   border-bottom: 0px dashed;
   padding-bottom: 0px;
 }
+/* mobile will display two row: date & title */
 @media (max-width: 540px) {
   .archive-list .archive-item {
     display: block;
