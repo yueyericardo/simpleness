@@ -1038,3 +1038,14 @@ article .content #lightgallery img:hover {
   }
 }
 /* --------- floating ads end----------- */
+
+/* --------- mobile ads ----------- */
+#ads-mobile {
+  display: none;
+}
+@media (max-width: 540px) {
+  #ads-mobile {
+    display: block;
+  }
+}
+/* --------- mobile ads end----------- */
